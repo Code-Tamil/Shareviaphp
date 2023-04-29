@@ -13,7 +13,7 @@ sudo ./install.sh
 ```
 ## To Use it
 ```sh
-sudo ./Share.sh
+sudo ./Shareviaphp/Share.sh
 ```
 
 
