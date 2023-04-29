@@ -6,4 +6,4 @@ sudo cp -r * /var/www/html
 sudo mkdir /var/www/html/shares
 sudo chmod 777 /var/www/html/shares
 sudo chmod 777 Share.sh
-echo "Run 'sudo ./Share.sh'"
+echo "Run 'sudo ./Shareviaphp/Share.sh'"
