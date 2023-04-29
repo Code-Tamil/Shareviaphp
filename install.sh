@@ -1,5 +1,5 @@
 git clone https://github.com/Code-Tamil/Shareviaphp.git
-cd /Shareviaphp
+cd Shareviaphp
 sudo apt update
 sudo apt install php apache2
 sudo mv * /var/www/html
