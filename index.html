@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Share or Receive Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* Set the body background color to greyish-black */
+      
+      body {
+        background-color: #1c1c1c;
+        font-family: Arial, sans-serif;
+      }
+      
+      /* Center the page content */
+      .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      /* Style the buttons */
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: #7f00ff;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 10px;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+      }
+      a:-webkit-any-link {
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+}
+      
+      /* Style the Share button on hover */
+      #share-button:hover {
+        background-color: #5e00b3;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+      }
+      
+      /* Style the Receive button on hover */
+      #receive-button:hover {
+        background-color: #4d4d4d;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+      }
+      
+      /* Style the h1 and p tags */
+      h1 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-bottom: 20px;
+      }
+      
+      /* Style the buttons on mobile devices */
+      @media only screen and (max-width: 600px) {
+        .button {
+          width: 100%;
+        }
+        
+        #receive-button {
+          margin-top: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Share or Receive Template</h1>
+      <button class="button" id="share-button"><a href='/up.php'>Share</a></button>
+      <button class="button" id="receive-button"><a href='/down.php'>Receive</a></button>
+    </div>
+  </body>
+</html>
