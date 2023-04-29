@@ -10,5 +10,9 @@ Just have these files in your /var/www/html
 sudo wget https://raw.githubusercontent.com/Code-Tamil/Shareviaphp/main/install.sh
 sudo ./install.sh
 ```
+## To Use it
+```sh
+sudo ./Share.sh
+```
 
 
