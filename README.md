@@ -8,7 +8,7 @@ Just have these files in your /var/www/html
 ## To install it easily(Complete Installation)
 ```sh
 sudo wget https://raw.githubusercontent.com/Code-Tamil/Shareviaphp/main/install.sh
-cd Shareviaphp
+sudo chmod 777 ./install.sh
 sudo ./install.sh
 ```
 ## To Use it
